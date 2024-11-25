@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/Style.css" />
+  </head>
+  <body class="bg-color">
+    <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+      <div class="container container-fluid login-container">
+        <div class="row first-row no-gutters">
+          <div class="col-12 col-md-5 col-sm-5">
+            <img
+              src="Picture/bg-Woman.jpg"
+              alt="Login Page"
+              class="img-fluid login-img"
+            />
+          </div>
+          <div class="col-12 col-md-7 login-main col-sm-5">
+            <img src="Picture/Logo.png" alt="logo" class="logo" />
+            <p class="sign-in">Sign into your account</p>
+            <form action="#!">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control email-form"
+                  id="email"
+                  required
+                  placeholder="Email"
+                  aria-label="Enter your email"
+                />
+                <!-- <label for="email" class="form-label">Email</label>  #dont work-->
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+              </div>
+              
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  id="password"
+                  class="form-control pass-form"
+                  placeholder="Password"
+                  required
+              minlength="6" 
+                />
+                <div class="invalid-feedback">Password must be at least 6 characters long.</div>
+                <!-- <label for="password" class="form-password" >Password</label> #dont work -->
+              </div>
+              <div class="form-check check-box">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="rememberMe"
+                />
+                <label class="form-check-label check-label" for="rememberMe"
+                  >Remember Me</label
+                >
+                <a class="forget" href="#">Forgot password?</a>
+              </div>
+
+              <input
+                type="submit"
+                id="login"
+                class="btn btn-login"
+                value="Login"
+              >
+
+              <!-- <div class="d-flex align-items-center or-sign">
+                <hr class="flex-grow-1 hr1">
+                <span class="mx-3">or sign in with</span>
+                <hr class="flex-grow-1 hr2">
+              </div> -->
+              <!-- <div class="icons">
+                <a href="#"><img src="Picture/Facebook.svg" alt="Facebook" class="facebook"></a>
+                <a href="#"><img src="Picture/google-icon.svg" alt="google" class="google"></a>
+                <a href="#"><img src="Picture/apple.svg" alt="apple" class="apple"></a> -->
+              <!-- </div> -->
+               
+            </form>
+            <div>
+              <p class="login-card-footer-text reg">
+                Don't have an account? Register <a href="#" class="register">here</a>
+              </p>
+            </div> 
+            <nav class="privacy">
+              <a href="#" class="terms">Terms of use. </a>
+              <a href="#" class="terms">Privacy policy</a>
+            </nav>
+          </div>
+          
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
