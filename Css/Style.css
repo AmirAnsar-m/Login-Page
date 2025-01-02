@@ -1,141 +1,141 @@
 
 .bg-color{
-    background-color: #D0D0CE;
+  background-color: #D0D0CE;
 }
 .login-container {
-  min-height: 100vh; /* تمام ارتفاع صفحه */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
+min-height: 100vh; /* تمام ارتفاع صفحه */
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
-    
+  
 .login-img{
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    width: 100%;
-    padding-right: 0;
-    width: 100%;
-  object-fit: cover;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 100%;
+  padding-right: 0;
+  width: 100%;
+object-fit: cover;
 }
 .first-row{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 1000px;
-    margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 1000px;
+  margin-left: 50px;
 }
 .login-main{
-    background-color: white;
-    padding-left: 0;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+  background-color: white;
+  padding-left: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 .logo{
-    width: 35%;
-    margin-left: 50px;
-    margin-top: 75px;
-    
+  width: 35%;
+  margin-left: 50px;
+  margin-top: 75px;
+  
 }
 .sign-in{
-    font-family: karla;
-    font-size: 25px;
-    font-weight: normal;
-    margin-left: 65px;
-    margin-top: 5px;
-    margin-bottom: 25px;
+  font-family: karla;
+  font-size: 25px;
+  font-weight: normal;
+  margin-left: 65px;
+  margin-top: 5px;
+  margin-bottom: 25px;
 }
 .email-form, .pass-form{
-    width: 55%;
-    margin-left: 65px;
-    margin-right: 65px;
-    margin-bottom: 10px;
-    
+  width: 55%;
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-bottom: 10px;
+  
 }
 .email-form, .pass-form{
-    padding: 20px;
+  padding: 20px;
 }
 .btn-login {
-    width: 55%;
-    margin-bottom: 10px;
-    margin-left: 65px;
-    margin-top: 18px;
-    text-align: center;
-    background-color: #0f0e0e;
-    color: white; 
-    border: none;
-    padding: 12px;
-    font-size: 16px;
-    border-radius: 5px; 
-    cursor: pointer; 
-    transition: background-color 0.1s, transform 0.2s ease;
-    
-  }
+  width: 55%;
+  margin-bottom: 10px;
+  margin-left: 65px;
+  margin-top: 18px;
+  text-align: center;
+  background-color: #0f0e0e;
+  color: white; 
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.1s, transform 0.2s ease;
   
-  .btn-login:hover {
-    background-color: #ffffff;
-    border: 1px solid #000;
-    
-  }
+}
+
+.btn-login:hover {
+  background-color: #ffffff;
+  border: 1px solid #000;
   
-  .btn-login:active {
-    background-color: #292828;
-    transform: translateY(1px);
-  }
-  
-  .btn-login:focus {
-    outline: none;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-  }
-  
-  .check-box{
-    margin-left: 65px;
-  }
-  .check-label{
-    color: rgb(102, 100, 100);
-  }
+}
+
+.btn-login:active {
+  background-color: #292828;
+  transform: translateY(1px);
+}
+
+.btn-login:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.check-box{
+  margin-left: 65px;
+}
+.check-label{
+  color: rgb(102, 100, 100);
+}
 .form-check-input{
-    width: 15px; 
-  height: 15px;
+  width: 15px; 
+height: 15px;
 }
 .forget{
-  margin-left: 85px;
-  font-size: 13px;
-  color: rgb(102, 100, 100);
+margin-left: 85px;
+font-size: 13px;
+color: rgb(102, 100, 100);
 } 
 .or-sign{
-  margin-top: 10px;
-  margin: 0 100px;
+margin-top: 10px;
+margin: 0 100px;
 }
 .apple, .google, .facebook{
-  width: 6%;
-  margin-left: 30px ;
-  margin-top:   10px;
+width: 6%;
+margin-left: 30px ;
+margin-top:   10px;
 }
 .facebook{
-  width: 7%;
-  margin-left: 140px;
+width: 7%;
+margin-left: 140px;
 }
 .google{
-  width: 6%;
-  margin-left: 60px;
+width: 6%;
+margin-left: 60px;
 }
 .apple{
-  width: 5%;
-  margin-left: 60px;
-  margin-bottom: 10px;
+width: 5%;
+margin-left: 60px;
+margin-bottom: 10px;
 }
 .reg{
-  margin-left: 63px;
-  margin-top: 10px;
-  color: #0d2366;
-  font-size: 16px;
-  box-sizing: border-box;
+margin-left: 63px;
+margin-top: 10px;
+color: #0d2366;
+font-size: 16px;
+box-sizing: border-box;
 }
 .privacy{
-  margin-top: 90px;
-  margin-left: 61px;
+margin-top: 90px;
+margin-left: 61px;
 }
 .terms{
-  color: #919aa3;
-  font-size: 14px;
+color: #919aa3;
+font-size: 14px;
 }

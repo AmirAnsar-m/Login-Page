@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="Css/Style.css" />
+    <link rel="stylesheet" href="./Css/Style.css" />
   </head>
   <body class="bg-color">
     <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
@@ -24,17 +24,18 @@
         <div class="row first-row no-gutters">
           <div class="col-12 col-md-5 col-sm-5">
             <img
-              src="Picture/bg-Woman.jpg"
+              src="./Pictures/bg-Woman.jpg"
               alt="Login Page"
-              class="img-fluid login-img"
+              class="img-fluid login-img d-none d-md-block"
             />
           </div>
-          <div class="col-12 col-md-7 login-main col-sm-5">
-            <img src="Picture/Logo.png" alt="logo" class="logo" />
+          <div class="col-12 col-md-7 login-main">
+            <img src="./Pictures/Logo.png" alt="logo" class="logo img-fluid  d-block" />
             <p class="sign-in">Sign into your account</p>
-            <form action="#!">
+            <form action="/submit" method="post">
               <div class="form-floating mb-3">
                 <input
+                  name="username"
                   type="email"
                   class="form-control email-form"
                   id="email"
@@ -43,19 +44,24 @@
                   aria-label="Enter your email"
                 />
                 <!-- <label for="email" class="form-label">Email</label>  #dont work-->
-                <div class="invalid-feedback">Please enter a valid email address.</div>
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
               </div>
-              
+
               <div class="form-floating mb-3">
                 <input
+                  name="password"
                   type="password"
                   id="password"
                   class="form-control pass-form"
                   placeholder="Password"
                   required
-              minlength="6" 
+                  minlength="6"
                 />
-                <div class="invalid-feedback">Password must be at least 6 characters long.</div>
+                <div class="invalid-feedback">
+                  Password must be at least 6 characters long.
+                </div>
                 <!-- <label for="password" class="form-password" >Password</label> #dont work -->
               </div>
               <div class="form-check check-box">
@@ -73,9 +79,9 @@
               <input
                 type="submit"
                 id="login"
-                class="btn btn-login"
+                class="btn btn-login "
                 value="Login"
-              >
+              />
 
               <!-- <div class="d-flex align-items-center or-sign">
                 <hr class="flex-grow-1 hr1">
@@ -87,19 +93,18 @@
                 <a href="#"><img src="Picture/google-icon.svg" alt="google" class="google"></a>
                 <a href="#"><img src="Picture/apple.svg" alt="apple" class="apple"></a> -->
               <!-- </div> -->
-               
             </form>
             <div>
               <p class="login-card-footer-text reg">
-                Don't have an account? Register <a href="#" class="register">here</a>
+                Don't have an account? Register
+                <a href="#" class="register">here</a>
               </p>
-            </div> 
-            <nav class="privacy">
-              <a href="#" class="terms">Terms of use. </a>
-              <a href="#" class="terms">Privacy policy</a>
+            </div>
+            <nav class="privacy text-center">
+              <a href="#" class="terms text-secondary">Terms of use. </a>
+              <a href="#" class="terms text-secondary">Privacy policy</a>
             </nav>
           </div>
-          
         </div>
       </div>
     </main>
